@@ -1,0 +1,120 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wel {
+  max-width: 1300px;
+  margin-inline: auto;
+}
+button {
+  padding: 3px;
+  background-color: gray;
+  width: 70px;
+  height: 40px;
+}
+.body {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 {
+  width: 350px;
+  background-color: gray;
+  height: 100vh;
+}
+.div2{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rt {
+  padding-inline: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rt h1 {
+  padding-left: 2px;
+}.textarea-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+ 
+}
+
+textarea {
+  flex: 1; /* Make the textarea take up remaining space */
+  height: 100px; /* Default height */
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  resize: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+textarea:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 5px #007bff;
+  background-color: #fff;
+}
+
+.textarea-container textarea::placeholder {
+  color: #aaa;
+}
+
+#searchButton {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100px;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+.ai-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+#aiResponse {
+  margin: 0;
+  line-height: 1.5;
+}
+
+#searchButton:active {
+  background-color: #003f8a;
+}
+
