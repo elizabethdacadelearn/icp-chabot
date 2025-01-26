@@ -43,8 +43,9 @@ body {
 .rt {
   padding-inline: 3px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .rt h1 {
   padding-left: 2px;
@@ -57,7 +58,14 @@ body {
   padding: 10px;
  
 }
-
+.yu{
+  font-size: 17px;
+  color:red;
+  cursor: pointer;
+}
+.y{
+  cursor: pointer;
+}
 textarea {
   flex: 1; /* Make the textarea take up remaining space */
   height: 100px; /* Default height */
