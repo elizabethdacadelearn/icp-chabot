@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import NavBar from "./navbar";
 
-import Button from "../auth/login";
+import Button from "../store/login";
 import { useAuth } from "../auth/authetication";
 const WelcomePage = () => {
   const { isAuthenticated, login, principal, logout } = useAuth();

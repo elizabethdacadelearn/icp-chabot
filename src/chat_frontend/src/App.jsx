@@ -3,7 +3,7 @@ import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import WelcomePage from "./pages/welcome";
 import MainPage from "./pages/mainpage";
-import { AuthProvider } from "./auth/authetication";
+import { AuthProvider } from "./store/authetication";
 function App() {
   
   return (
