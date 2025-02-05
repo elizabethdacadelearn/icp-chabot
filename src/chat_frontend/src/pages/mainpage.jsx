@@ -3,7 +3,7 @@ import { chat_backend } from "declarations/chat_backend";
 import { useNavigate } from "react-router-dom";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useAuth } from "../store/authetication";
-import Button from "../auth/login";
+import Button from "../store/login";
 const MainPage = () => {
   const [search, setSearch] = useState("");
   const { isAuthenticated, login, principal, logout } = useAuth();
