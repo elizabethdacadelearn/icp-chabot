@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import NavBar from "./navbar";
 
 import Button from "../store/login";
-import { useAuth } from "../auth/authetication";
+import { useAuth } from "../store/authetication";
 const WelcomePage = () => {
   const { isAuthenticated, login, principal, logout } = useAuth();
   const router = useNavigate();
