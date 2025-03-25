@@ -24,7 +24,7 @@ const MainPage = () => {
   const handlesubmit = async (e) => {
     e.preventDefault();
     try {
-      const model = genAi.getGenerativeModel({ model: "gemini-pro" });
+      const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
 
       const prompt = `answer user question based on user search that is ${search} and should be less than 300 words`;
 
