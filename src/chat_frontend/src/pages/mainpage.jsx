@@ -26,8 +26,7 @@ const MainPage = () => {
     try {
       const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
 
-      const prompt = `answer user question based on user search that is ${search} and should be less than 300 words`;
-
+      const prompt = `answer user question  that is ${search} and should be less than 300 words`;
       const result = await model.generateContent(prompt);
       const response = result.response;
       const text = response.text();
